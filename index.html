@@ -544,9 +544,597 @@ footer strong{color:var(--orange);}
       <p>Kisi bhi program ke liye humse rabta karein — hum ready hain aapki madad ke liye.</p>
     </div>
     <div class="contact-links">
-      <a class="contact-link" href="https://wa.me/923051119039" target="_blank">
+      <a class="contact-link" href="https://wa.me/9230058<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Coral Commerce – Amazon FBA Training</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Open+Sans:wght@400;500;600&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --navy:#0B1A2E; --navy2:#112240; --orange:#FF6B35; --orange2:#E8541A;
+  --white:#FFFFFF; --offwhite:#F0F4FF; --muted:#8899BB; --gold:#FFB347;
+}
+html{scroll-behavior:smooth;}
+body{background:var(--navy);color:var(--white);font-family:'Open Sans',sans-serif;overflow-x:hidden;}
+
+/* ══ ANIMATIONS ══ */
+@keyframes fadeUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes slideRight{from{opacity:0;transform:translateX(-24px)}to{opacity:1;transform:translateX(0)}}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(255,107,53,0.5)}50%{box-shadow:0 0 0 12px rgba(255,107,53,0)}}
+@keyframes shimmer{0%{background-position:200% center}100%{background-position:-200% center}}
+@keyframes borderGlow{0%,100%{border-color:rgba(255,107,53,0.35)}50%{border-color:rgba(255,107,53,1)}}
+@keyframes movingBorder{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+@keyframes popIn{0%{opacity:0;transform:scale(.7) translateY(-20px)}70%{transform:scale(1.04)}100%{opacity:1;transform:scale(1) translateY(0)}}
+@keyframes slideDown{from{opacity:0;transform:translateY(-30px)}to{opacity:1;transform:translateY(0)}}
+@keyframes typing{from{width:0}to{width:100%}}
+@keyframes blink{0%,100%{border-color:transparent}50%{border-color:var(--orange)}}
+@keyframes floatY{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes scaleIn{from{opacity:0;transform:scale(.5)}to{opacity:1;transform:scale(1)}}
+
+/* ══ WELCOME POPUP ══ */
+#welcome-overlay{
+  position:fixed;inset:0;z-index:9999;
+  background:rgba(6,14,27,0.88);
+  backdrop-filter:blur(8px);
+  display:flex;align-items:center;justify-content:center;
+  padding:16px;
+  animation:fadeIn .3s ease both;
+}
+.welcome-card{
+  background:linear-gradient(145deg,#0E2040,#162C4F);
+  border-radius:20px;
+  padding:36px 32px 30px;
+  max-width:420px;width:100%;
+  text-align:center;
+  position:relative;
+  animation:popIn .6s cubic-bezier(.34,1.56,.64,1) both;
+  /* animated moving border */
+  border:2px solid transparent;
+  background-clip:padding-box;
+}
+.welcome-card::before{
+  content:'';
+  position:absolute;inset:-2px;
+  border-radius:22px;
+  background:linear-gradient(270deg,#FF6B35,#FFB347,#FF6B35,#E8541A);
+  background-size:400% 400%;
+  animation:movingBorder 3s ease infinite;
+  z-index:-1;
+}
+.wc-emoji{font-size:40px;margin-bottom:10px;display:block;animation:floatY 2s ease-in-out infinite;}
+.wc-title{
+  font-family:'Montserrat',sans-serif;
+  font-size:clamp(18px,4vw,24px);
+  font-weight:900;
+  margin-bottom:6px;
+  color:#fff;
+}
+.wc-title span{color:var(--orange);}
+.wc-sub{
+  font-size:13px;color:var(--muted);
+  line-height:1.6;margin-bottom:6px;
+}
+.wc-expert{
+  font-size:12px;
+  color:var(--offwhite);
+  background:rgba(255,107,53,0.1);
+  border:1px solid rgba(255,107,53,0.25);
+  border-radius:8px;
+  padding:8px 14px;
+  margin:10px 0 20px;
+  line-height:1.55;
+}
+.wc-slogan{
+  font-family:'Montserrat',sans-serif;
+  font-size:clamp(13px,2.5vw,15px);
+  font-weight:700;
+  color:var(--orange);
+  letter-spacing:.5px;
+  margin-bottom:22px;
+  line-height:1.5;
+}
+.wc-enter-btn{
+  display:inline-block;
+  background:linear-gradient(135deg,#FF6B35,#E8541A);
+  color:#fff;
+  font-family:'Montserrat',sans-serif;
+  font-size:13px;font-weight:700;
+  letter-spacing:1px;
+  padding:13px 36px;
+  border-radius:50px;
+  border:none;cursor:pointer;
+  animation:pulse 2s ease infinite;
+  transition:transform .15s;
+  text-transform:uppercase;
+}
+.wc-enter-btn:hover{transform:scale(1.05);}
+
+/* ══ INTRO BAR ══ */
+.intro-bar{
+  min-height:10vh;max-height:80px;
+  background:linear-gradient(135deg,#0D1F38,#142540,#0D1F38);
+  border-bottom:1px solid rgba(255,107,53,0.2);
+  display:flex;align-items:center;justify-content:center;
+  gap:16px;padding:0 20px;
+  position:relative;overflow:hidden;
+}
+.intro-bar::before{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(90deg,transparent,rgba(255,107,53,0.06),transparent);
+  background-size:200% auto;
+  animation:shimmer 3s linear infinite;
+}
+.intro-logo-text{
+  font-family:'Montserrat',sans-serif;font-weight:900;
+  font-size:clamp(15px,3vw,22px);letter-spacing:-.5px;
+  animation:fadeIn .6s ease both;
+}
+.intro-logo-text span{color:var(--orange);}
+.intro-by{
+  font-size:11px;color:var(--muted);letter-spacing:2px;text-transform:uppercase;
+  border-left:1px solid rgba(255,255,255,0.12);padding-left:14px;
+  animation:fadeIn .8s ease both;
+}
+.intro-badge{
+  background:var(--orange);color:#fff;
+  font-family:'Montserrat',sans-serif;font-size:9px;font-weight:700;
+  letter-spacing:2px;text-transform:uppercase;
+  padding:4px 10px;border-radius:2px;
+  animation:pulse 2.5s ease infinite;
+}
+
+/* ══ MAIN WRAP ══ */
+.main-wrap{max-width:960px;margin:0 auto;padding:36px 16px 0;}
+
+.section-eyebrow{text-align:center;margin-bottom:28px;animation:fadeUp .7s .1s ease both;}
+.section-eyebrow .tag{
+  display:inline-block;font-size:10px;font-family:'Montserrat',sans-serif;
+  letter-spacing:3.5px;text-transform:uppercase;color:var(--orange);margin-bottom:8px;
+}
+.section-eyebrow h2{font-family:'Montserrat',sans-serif;font-size:clamp(20px,3.5vw,30px);font-weight:900;margin-bottom:6px;}
+.section-eyebrow p{font-size:13px;color:var(--muted);}
+.dur-pill{
+  display:inline-flex;align-items:center;gap:7px;
+  background:rgba(255,107,53,0.12);border:1px solid rgba(255,107,53,0.35);
+  border-radius:40px;padding:6px 16px;font-size:12px;font-weight:600;
+  color:var(--orange);margin-top:12px;
+}
+
+/* ══ PACKAGES GRID ══ */
+.packages-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+@media(max-width:620px){.packages-grid{grid-template-columns:1fr;}}
+
+/* ══ CARD ══ */
+.card{
+  background:var(--navy2);border-radius:14px;overflow:hidden;
+  border:1px solid rgba(255,255,255,0.07);
+  display:flex;flex-direction:column;
+  transition:transform .25s ease,box-shadow .25s ease;
+  animation:fadeUp .7s ease both;
+}
+.card:nth-child(1){animation-delay:.15s;}.card:nth-child(2){animation-delay:.28s;}
+.card:hover{transform:translateY(-5px);}
+.card-standard:hover{box-shadow:0 16px 40px rgba(0,0,0,0.35);}
+
+.card-standard .card-head{
+  background:linear-gradient(135deg,#1C3156,#162844);
+  padding:26px 24px 20px;
+  border-bottom:2px solid rgba(255,107,53,0.25);
+  position:relative;overflow:hidden;
+}
+.card-standard .card-head::after{
+  content:'';position:absolute;top:-30px;right:-30px;
+  width:100px;height:100px;
+  background:radial-gradient(circle,rgba(255,107,53,0.12),transparent 70%);
+  border-radius:50%;
+}
+/* premium */
+.card-premium{
+  border:2px solid transparent;
+  background-clip:padding-box;
+  position:relative;
+}
+.card-premium::before{
+  content:'';position:absolute;inset:-2px;border-radius:15px;
+  background:linear-gradient(270deg,#FF6B35,#FFB347,#FF6B35,#E8541A);
+  background-size:400% 400%;
+  animation:movingBorder 3s ease infinite;
+  z-index:-1;
+}
+.card-premium:hover{box-shadow:0 16px 50px rgba(255,107,53,0.25);}
+.card-premium .card-head{
+  background:linear-gradient(135deg,#FF6B35,#E8541A);
+  padding:26px 24px 20px;position:relative;overflow:hidden;
+}
+.card-premium .card-head::before{
+  content:'BEST VALUE';
+  position:absolute;top:12px;right:-22px;
+  background:rgba(0,0,0,0.22);color:#fff;
+  font-size:8px;font-family:'Montserrat',sans-serif;font-weight:700;letter-spacing:2px;
+  padding:4px 36px;transform:rotate(45deg);
+}
+
+.card-tier{font-family:'Montserrat',sans-serif;font-size:9px;font-weight:700;letter-spacing:3px;text-transform:uppercase;opacity:.65;margin-bottom:5px;}
+.card-title{font-family:'Montserrat',sans-serif;font-size:clamp(20px,3vw,26px);font-weight:900;margin-bottom:10px;}
+.card-price{font-family:'Montserrat',sans-serif;font-size:clamp(28px,4vw,38px);font-weight:900;line-height:1;animation:scaleIn .5s .4s ease both;}
+.card-price sub{font-size:12px;font-weight:600;vertical-align:bottom;margin-right:2px;opacity:.7;}
+.price-note{font-size:11px;font-weight:400;opacity:.6;display:block;margin-top:4px;}
+
+.card-features{padding:18px 20px 16px;flex:1;display:flex;flex-direction:column;}
+.feature-item{
+  display:flex;align-items:flex-start;gap:10px;
+  padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.05);
+  font-size:13px;line-height:1.45;color:var(--offwhite);
+  animation:slideRight .5s ease both;
+}
+.feature-item:last-child{border-bottom:none;}
+.feature-item:nth-child(1){animation-delay:.3s;}.feature-item:nth-child(2){animation-delay:.35s;}
+.feature-item:nth-child(3){animation-delay:.4s;}.feature-item:nth-child(4){animation-delay:.45s;}
+.feature-item:nth-child(5){animation-delay:.5s;}.feature-item:nth-child(6){animation-delay:.55s;}
+.feature-item:nth-child(7){animation-delay:.6s;}.feature-item:nth-child(8){animation-delay:.65s;}
+.feature-item:nth-child(9){animation-delay:.7s;}.feature-item:nth-child(10){animation-delay:.75s;}
+
+.feat-num{
+  width:22px;height:22px;min-width:22px;
+  background:rgba(255,107,53,0.14);border-radius:5px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:9.5px;color:var(--orange);font-weight:700;
+  font-family:'Montserrat',sans-serif;margin-top:1px;
+}
+.card-premium .feat-num{background:rgba(255,107,53,0.22);}
+.feat-label strong{color:#fff;font-weight:600;}
+
+.premium-bonus{
+  margin:0 16px 18px;
+  background:linear-gradient(135deg,rgba(255,107,53,0.1),rgba(255,107,53,0.04));
+  border:1px solid rgba(255,107,53,0.28);border-radius:10px;padding:14px 16px;
+  animation:fadeIn .8s .8s ease both;
+}
+.bonus-title{font-family:'Montserrat',sans-serif;font-size:10px;font-weight:700;color:var(--orange);letter-spacing:2px;text-transform:uppercase;margin-bottom:9px;}
+.bonus-item{font-size:12px;color:var(--offwhite);padding:3px 0;display:flex;gap:8px;align-items:flex-start;}
+.bonus-item::before{content:'★';color:var(--gold);font-size:9px;margin-top:3px;flex-shrink:0;}
+
+/* ══ ENROLL BUTTONS below cards ══ */
+.enroll-btns{
+  display:grid;grid-template-columns:1fr 1fr;
+  gap:18px;margin-top:18px;
+  animation:fadeUp .7s .5s ease both;
+}
+@media(max-width:620px){.enroll-btns{grid-template-columns:1fr;}}
+
+.enroll-btn{
+  display:flex;align-items:center;justify-content:center;gap:10px;
+  padding:15px 20px;border-radius:50px;
+  font-family:'Montserrat',sans-serif;font-size:13px;font-weight:700;
+  letter-spacing:.5px;text-decoration:none;color:#fff;
+  cursor:pointer;border:none;
+  transition:transform .15s,box-shadow .2s;
+  position:relative;overflow:hidden;
+}
+.enroll-btn::after{
+  content:'';position:absolute;inset:0;
+  background:rgba(255,255,255,0.08);
+  transform:translateX(-100%);
+  transition:transform .3s ease;
+}
+.enroll-btn:hover::after{transform:translateX(0);}
+.enroll-btn:hover{transform:translateY(-2px);}
+
+.enroll-std{
+  background:linear-gradient(135deg,#1C3156,#243d6e);
+  border:1.5px solid rgba(255,107,53,0.4);
+  box-shadow:0 4px 20px rgba(0,0,0,0.3);
+}
+.enroll-std:hover{box-shadow:0 8px 28px rgba(255,107,53,0.2);}
+
+.enroll-prm{
+  background:linear-gradient(135deg,#FF6B35,#E8541A);
+  box-shadow:0 4px 20px rgba(255,107,53,0.3);
+  animation:pulse 2.5s ease infinite;
+}
+.enroll-prm:hover{box-shadow:0 8px 32px rgba(255,107,53,0.5);}
+
+.enroll-btn svg{width:18px;height:18px;flex-shrink:0;}
+
+/* ══ TRUST BAR ══ */
+.trust-bar{
+  display:flex;justify-content:center;gap:12px;flex-wrap:wrap;
+  padding:32px 16px 0;max-width:960px;margin:0 auto;
+}
+.trust-item{
+  background:rgba(255,255,255,0.04);
+  border:1px solid rgba(255,255,255,0.08);
+  border-radius:10px;padding:14px 18px;
+  text-align:center;flex:1;min-width:130px;max-width:180px;
+  animation:fadeUp .6s ease both;
+  transition:background .2s,transform .2s;
+}
+.trust-item:hover{background:rgba(255,107,53,0.07);transform:translateY(-3px);}
+.trust-item:nth-child(1){animation-delay:.1s;}.trust-item:nth-child(2){animation-delay:.2s;}
+.trust-item:nth-child(3){animation-delay:.3s;}.trust-item:nth-child(4){animation-delay:.4s;}
+.trust-num{font-family:'Montserrat',sans-serif;font-size:clamp(20px,3vw,26px);font-weight:900;color:var(--orange);line-height:1;}
+.trust-lbl{font-size:10px;color:var(--muted);margin-top:4px;text-transform:uppercase;letter-spacing:1px;}
+
+/* ══ CONTACT ══ */
+.contact-section{max-width:960px;margin:36px auto 0;padding:0 16px 52px;}
+.contact-box{
+  background:linear-gradient(135deg,#0E1E35,#162840);
+  border:1px solid rgba(255,107,53,0.22);border-radius:16px;
+  padding:32px 28px;
+  display:flex;flex-wrap:wrap;gap:28px;
+  align-items:flex-start;justify-content:space-between;
+  animation:fadeUp .7s .2s ease both;
+}
+.contact-left h3{font-family:'Montserrat',sans-serif;font-size:clamp(18px,2.5vw,22px);font-weight:800;margin-bottom:6px;}
+.contact-left h3 span{color:var(--orange);}
+.contact-left p{font-size:13px;color:var(--muted);max-width:280px;line-height:1.65;}
+.contact-links{display:flex;flex-direction:column;gap:10px;min-width:220px;width:100%;}
+@media(max-width:620px){
+  .contact-box{flex-direction:column;}
+  .contact-links{min-width:100%;}
+  .cinfo .cval{font-size:12px;word-break:break-all;}
+}
+.contact-link{
+  display:flex;align-items:center;gap:13px;
+  text-decoration:none;color:var(--offwhite);
+  padding:10px 14px;
+  background:rgba(255,255,255,0.04);
+  border:1px solid rgba(255,255,255,0.07);
+  border-radius:10px;
+  transition:background .2s,border-color .2s,transform .15s;
+  animation:slideRight .5s ease both;
+}
+.contact-link:nth-child(1){animation-delay:.3s;}.contact-link:nth-child(2){animation-delay:.38s;}
+.contact-link:nth-child(3){animation-delay:.46s;}.contact-link:nth-child(4){animation-delay:.54s;}
+.contact-link:nth-child(5){animation-delay:.62s;}
+.contact-link:hover{background:rgba(255,107,53,0.1);border-color:rgba(255,107,53,0.4);transform:translateX(4px);}
+.ci-icon{width:38px;height:38px;min-width:38px;border-radius:9px;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.ci-wa{background:#25D366;}.ci-call{background:#0B1A2E;border:1px solid rgba(255,107,53,0.4);}
+.ci-email{background:#EA4335;}.ci-fb{background:#1877F2;}.ci-tt{background:#010101;}
+.ci-icon svg{width:20px;height:20px;display:block;}
+.cinfo{display:flex;flex-direction:column;}
+.cinfo .clabel{font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:2px;}
+.cinfo .cval{font-size:13px;color:var(--offwhite);font-weight:500;}
+
+footer{background:#060E1B;text-align:center;padding:16px;font-size:11px;color:var(--muted);letter-spacing:.5px;border-top:1px solid rgba(255,255,255,0.05);}
+footer strong{color:var(--orange);}
+
+@media(max-width:480px){
+  .intro-by{display:none;}
+  .card-features{padding:14px 14px 16px;}
+  .contact-box{padding:22px 18px;}
+  .contact-links{min-width:100%;width:100%;}
+  .trust-item{min-width:calc(50% - 6px);max-width:50%;}
+  .welcome-card{padding:28px 20px 24px;}
+}
+
+/* ══ EARNING GUARANTEED BAR ══ */
+.earning-bar{
+  background:linear-gradient(135deg,rgba(255,107,53,0.12),rgba(255,179,71,0.08),rgba(255,107,53,0.12));
+  border-top:1px solid rgba(255,107,53,0.25);
+  border-bottom:1px solid rgba(255,107,53,0.25);
+  padding:14px 16px;
+  text-align:center;
+  animation:fadeIn .8s ease both;
+  position:relative;overflow:hidden;
+}
+.earning-bar::before{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(90deg,transparent,rgba(255,107,53,0.08),transparent);
+  background-size:200% auto;
+  animation:shimmer 3s linear infinite;
+}
+.earning-inner{
+  display:inline-flex;align-items:center;
+  gap:10px;flex-wrap:wrap;justify-content:center;
+}
+.earning-icon{font-size:20px;animation:floatY 2s ease-in-out infinite;}
+.earning-text{
+  font-family:'Montserrat',sans-serif;
+  font-size:clamp(16px,3.5vw,22px);
+  font-weight:900;
+  color:#fff;
+  letter-spacing:.5px;
+}
+.earning-highlight{
+  color:var(--orange);
+  background:linear-gradient(135deg,#FF6B35,#FFB347,#FF6B35);
+  background-size:200% auto;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-clip:text;
+  animation:shimmer 2.5s linear infinite;
+}
+.earning-sub{
+  font-size:clamp(11px,2vw,13px);
+  color:var(--muted);
+  font-weight:500;
+  font-family:'Open Sans',sans-serif;
+}
+@media(max-width:400px){
+  .earning-text{font-size:15px;}
+  .earning-sub{display:block;width:100%;margin-top:2px;}
+}
+</style>
+</head>
+<body>
+
+<!-- ══════════ WELCOME POPUP ══════════ -->
+<div id="welcome-overlay">
+  <div class="welcome-card">
+    <span class="wc-emoji">👋</span>
+    <div class="wc-title">Welcome to <span>Muneeb Khan's</span> Office</div>
+    <div class="wc-sub">The Coral Commerce — Official Training Portal</div>
+    <div class="wc-expert">
+      🏆 <strong>Amazon Private Label Expert</strong> with 5+ Years of Experience<br>
+      Helping students build real Amazon businesses from Pakistan
+    </div>
+    <div class="wc-slogan">
+      "Start Your Amazon Journey with 50k+<br>
+      &amp; Earn Dollars Online — We'll Guide Every Step!"
+    </div>
+    <button class="wc-enter-btn" onclick="closeWelcome()">
+      Explore Programs &nbsp;→
+    </button>
+  </div>
+</div>
+
+<!-- ══════════ INTRO BAR ══════════ -->
+<div class="intro-bar">
+  <div class="intro-logo-text">The Coral<span> Commerce</span></div>
+  <div class="intro-by">by Muneeb Khan</div>
+  <div class="intro-badge">Amazon FBA & FBM</div>
+</div>
+
+<!-- ══════════ EARNING GUARANTEED ══════════ -->
+<div class="earning-bar">
+  <div class="earning-inner">
+    <span class="earning-icon">🏆</span>
+    <span class="earning-text">Earning <span class="earning-highlight">Guaranteed</span></span>
+    <span class="earning-sub">— Ya Puri Fees Wapis</span>
+  </div>
+</div>
+
+<!-- ══════════ PACKAGES ══════════ -->
+<div class="main-wrap">
+  <div class="section-eyebrow">
+    <div class="tag">Choose Your Program</div>
+    <h2>Amazon Private Label Training Programs</h2>
+    <p>Zero se Start — First Earning tak complete support</p>
+    <div class="dur-pill">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      Both Programs — 3 Months Duration
+    </div>
+  </div>
+
+  <div class="packages-grid">
+    <!-- STANDARD -->
+    <div class="card card-standard">
+      <div class="card-head">
+        <div class="card-tier">Package 01</div>
+        <div class="card-title">Standard</div>
+        <div class="card-price"><sub>PKR</sub>25,000<span class="price-note">One-time enrollment</span></div>
+      </div>
+      <div class="card-features">
+        <div class="feature-item"><div class="feat-num">01</div><div class="feat-label"><strong>Keyword Search</strong> &amp; Product Hunting</div></div>
+        <div class="feature-item"><div class="feat-num">02</div><div class="feat-label"><strong>Helium 10</strong> — Complete Training</div></div>
+        <div class="feature-item"><div class="feat-num">03</div><div class="feat-label"><strong>Product Graphic</strong> Design</div></div>
+        <div class="feature-item"><div class="feat-num">04</div><div class="feat-label"><strong>Product Validation</strong></div></div>
+        <div class="feature-item"><div class="feat-num">05</div><div class="feat-label"><strong>Segmentation</strong> Strategy</div></div>
+        <div class="feature-item"><div class="feat-num">06</div><div class="feat-label"><strong>Product Sourcing</strong></div></div>
+        <div class="feature-item"><div class="feat-num">07</div><div class="feat-label"><strong>Replace Order</strong> — China → USA, UK, UAE & KSA</div></div>
+        <div class="feature-item"><div class="feat-num">08</div><div class="feat-label"><strong>Prep Center</strong> Management</div></div>
+        <div class="feature-item"><div class="feat-num">09</div><div class="feat-label"><strong>Product Listing</strong> with Images</div></div>
+        <div class="feature-item"><div class="feat-num">10</div><div class="feat-label"><strong>PPC</strong> — Automation &amp; Strategies</div></div>
+      </div>
+    </div>
+
+    <!-- PREMIUM -->
+    <div class="card card-premium">
+      <div class="card-head">
+        <div class="card-tier">Package 02</div>
+        <div class="card-title">Premium</div>
+        <div class="card-price"><sub>PKR</sub>40,000<span class="price-note">One-time enrollment</span></div>
+      </div>
+      <div class="card-features">
+        <div class="feature-item"><div class="feat-num">01</div><div class="feat-label"><strong>Adv. Keyword Search</strong> &amp; Product Hunting</div></div>
+        <div class="feature-item"><div class="feat-num">02</div><div class="feat-label"><strong>Adv. Helium 10</strong> — Complete Training</div></div>
+        <div class="feature-item"><div class="feat-num">03</div><div class="feat-label"><strong>Adv. Product Graphic</strong> Design</div></div>
+        <div class="feature-item"><div class="feat-num">04</div><div class="feat-label"><strong>Adv. Product Validation</strong></div></div>
+        <div class="feature-item"><div class="feat-num">05</div><div class="feat-label"><strong>Adv. Segmentation</strong> Strategy</div></div>
+        <div class="feature-item"><div class="feat-num">06</div><div class="feat-label"><strong>Adv. Product Sourcing</strong></div></div>
+        <div class="feature-item"><div class="feat-num">07</div><div class="feat-label"><strong>Adv. Replace Order</strong> — China → USA, UK, UAE & KSA</div></div>
+        <div class="feature-item"><div class="feat-num">08</div><div class="feat-label"><strong>Adv. Prep Center</strong> Management</div></div>
+        <div class="feature-item"><div class="feat-num">09</div><div class="feat-label"><strong>Adv. Product Listing</strong> with Images</div></div>
+        <div class="feature-item"><div class="feat-num">10</div><div class="feat-label"><strong>Adv. PPC</strong> — Automation &amp; Strategies</div></div>
+      </div>
+      <div class="premium-bonus">
+        <div class="bonus-title">Premium Exclusive Benefits</div>
+        <div class="bonus-item"><strong>Business Launch Support (first sale)</strong> — </div>
+        <div class="bonus-item"><strong>Internship Offer (6 Months)</strong> — Capability-based selection</div>
+        <div class="bonus-item"><strong>1-Year Mentorship</strong> — Dedicated guidance</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ ENROLL BUTTONS ══ -->
+  <div class="enroll-btns">
+    <a class="enroll-btn enroll-std" href="https://wa.me/923005832039?text=Hello%2C%20the%20coral%20commerce%20team!%20Mn%20Standard%20program%20mn%20interested%20hun%2C%20Give%20me%20more%20Detials." target="_blank">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Enroll — Standard (25k)
+    </a>
+    <a class="enroll-btn enroll-prm" href="https://wa.me/923005832039?text=Hello%2C%20the%20coral%20commerce%20team!%20Mn%20Primium%20program%20mn%20interested%20hun%2C%20Give%20me%20more%20Detials." target="_blank">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Enroll — Premium (40k)
+    </a>
+  </div>
+</div>
+
+<!-- ══ TRUST BAR ══ -->
+<div class="trust-bar">
+  <div class="trust-item"><div class="trust-num">3</div><div class="trust-lbl">Months Program</div></div>
+  <div class="trust-item"><div class="trust-num">1yr+</div><div class="trust-lbl">Mentorship</div></div>
+  <div class="trust-item"><div class="trust-num">4</div><div class="trust-lbl">Countries</div></div>
+  <div class="trust-item"><div class="trust-num">✔</div><div class="trust-lbl">Internship</div></div>
+</div>
+
+<!-- ══ CONTACT ══ -->
+<section class="contact-section">
+  <div class="contact-box">
+    <div class="contact-left">
+      <h3>Enroll <span>Today</span></h3>
+      <p>Kisi bhi program ke liye humse rabta karein — hum ready hain aapki madad ke liye.</p>
+    </div>
+    <div class="contact-links">
+      <a class="contact-link" href="https://wa.me/923005832039" target="_blank">
         <div class="ci-icon ci-wa"><svg viewBox="0 0 24 24" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></div>
         <div class="cinfo"><span class="clabel">WhatsApp</span><span class="cval">0305 1119039</span></div>
+      </a>
+      <a class="contact-link" href="tel:+923005832039">
+        <div class="ci-icon ci-call"><svg viewBox="0 0 24 24" fill="none" stroke="#FF6B35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.72A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div>
+        <div class="cinfo"><span class="clabel">Call</span><span class="cval">0300 5832039</span></div>
+      </a>
+      <a class="contact-link" href="mailto:thecoralcomm@gmail.com">
+        <div class="ci-icon ci-email"><svg viewBox="0 0 24 24" fill="#fff"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></div>
+        <div class="cinfo"><span class="clabel">Email</span><span class="cval">thecoralcomm@gmail.com</span></div>
+      </a>
+      <a class="contact-link" href="https://facebook.com/thecoralcommerce" target="_blank">
+        <div class="ci-icon ci-fb"><svg viewBox="0 0 24 24" fill="#fff"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></div>
+        <div class="cinfo"><span class="clabel">Facebook</span><span class="cval">@thecoralcommerce</span></div>
+      </a>
+      <a class="contact-link" href="https://tiktok.com/@ecom_muneeb" target="_blank">
+        <div class="ci-icon ci-tt"><svg viewBox="0 0 24 24" fill="#fff"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.79 1.52V6.76a4.85 4.85 0 01-1.02-.07z"/></svg></div>
+        <div class="cinfo"><span class="clabel">TikTok</span><span class="cval">@ecom_muneeb</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2025 <strong>The Coral Commerce</strong> by Muneeb Khan &nbsp;·&nbsp; Amazon PL Training &amp; Mentorship
+</footer>
+
+<script>
+function closeWelcome(){
+  var o=document.getElementById('welcome-overlay');
+  o.style.animation='fadeIn .3s ease reverse both';
+  setTimeout(function(){o.style.display='none';},280);
+}
+// auto-close after 8 seconds if user doesn't click
+setTimeout(function(){
+  var o=document.getElementById('welcome-overlay');
+  if(o.style.display!=='none') closeWelcome();
+},8000);
+</script>
+</body>
+</html>
+" target="_blank">
+        <div class="ci-icon ci-wa"><svg viewBox="0 0 24 24" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></div>
+        <div class="cinfo"><span class="clabel">WhatsApp</span><span class="cval">0300 5832039</span></div>
       </a>
       <a class="contact-link" href="tel:+923051119039">
         <div class="ci-icon ci-call"><svg viewBox="0 0 24 24" fill="none" stroke="#FF6B35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.72A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div>
